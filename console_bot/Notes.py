@@ -3,8 +3,8 @@ import re
 import pickle
 import os
 
-from console_bot.handlers import instruction
-from console_bot.interface import Interface
+from handlers import instruction
+from interface import Interface
 
 NOTES_INSTRUCTION = 'instruction for notes.txt'
 

@@ -1,6 +1,6 @@
 import re
 
-from console_bot.classes import Phone, Name, Birthday, Record, AdressBook, Email, Address, Field
+from classes import Phone, Name, Birthday, Record, AdressBook, Email, Address, Field
 
 AB_INSTRUCTION = 'instruction for Address Book.txt'
 NAME_CLASSES = {

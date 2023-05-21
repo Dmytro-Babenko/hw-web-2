@@ -1,8 +1,8 @@
-import console_bot.ab_work as ab
-from console_bot.handlers import no_command, instruction
-import console_bot.Notes as Notes
-import console_bot.sort as sort
-from console_bot.interface import ConsoleInterface
+import ab_work as ab
+from handlers import no_command, instruction
+import Notes as Notes
+import sort as sort
+from interface import ConsoleInterface
 
 MAIN_INSTRUCTION = 'instruction for menu.txt'
 

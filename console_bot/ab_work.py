@@ -1,7 +1,7 @@
 import re
 
-import console_bot.handlers as handlers
-from console_bot.interface import Interface
+import handlers as handlers
+from interface import Interface
 
 
 OPERATIONS = {

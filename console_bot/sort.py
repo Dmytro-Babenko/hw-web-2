@@ -2,9 +2,9 @@ import os
 from pathlib import Path
 import shutil
 
-import console_bot.ab_work as ab
-from console_bot.handlers import no_command, input_error, instruction
-from console_bot.interface import Interface
+import ab_work as ab
+from handlers import no_command, input_error, instruction
+from interface import Interface
 
 SORT_INSTRUCTION = 'instruction for sorter.txt'
 
@@ -118,7 +118,7 @@ def folder_remover(path):
             if len(os.listdir(i)) == 0:
                 os.rmdir(i)
 
-
+@input_error
 def organize_files(path):
     if not path:
         raise ValueError('You should write path')
